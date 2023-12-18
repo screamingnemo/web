@@ -4,6 +4,9 @@ body {
   padding: 0;
   background-color: #fff; /* Set background color to white */
   color: #000; /* Set text color to black */
+  min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -36,13 +39,13 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1; /* Allow main content to grow and take available space */
 }
 
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio, adjust as needed 
-  */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio, adjust as needed */
 }
 
 iframe {
@@ -72,6 +75,7 @@ footer {
   color: #fff; /* Set footer text color to white */
   padding: 20px;
   text-align: center;
+  margin-top: auto; /* Push the footer to the bottom of the page */
 }
 
 .footer-nav {
@@ -105,3 +109,4 @@ footer {
   display: inline-block;
   margin-right: 10px;
 }
+
