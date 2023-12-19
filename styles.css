@@ -1,45 +1,49 @@
+/* Reset and Base Styles */
 body {
-  font-family: lacquer, Arial, sans-serif;
+  font-family: 'Lacquer', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff; /* Set background color to white */
-  color: #000; /* Set text color to black */
-  min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+/* Header Styles */
 header {
-  background-color: #000; /* Set header background color to black */
-  color: #fff; /* Set header text color to white */
-  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  padding: 0.625rem; /* 10px */
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
   flex-grow: 1;
-  text-align: center; /* Center text horizontally within the logo */
+  text-align: center;
 }
 
 header a {
-  color: #fff; /* Set link color to white */
+  color: #000;
   text-decoration: none;
-  padding: 10px;
-  margin-right: 10px;
+  padding: 1rem; /* 16px */
+  margin-right: 0.625rem; /* 10px */
   display: inline-block;
+  font-size: 4rem; /* 24px */
 }
 
+/* Main Content Styles */
 main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
+  max-width: 100%; /* Adjusted for mobile devices */
+  margin: 1.25rem auto; /* 20px */
+  padding: 1.25rem; /* 20px */
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); /* 10px */
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1; /* Allow main content to grow and take available space */
+  flex: 1;
 }
 
 .iframe-container {
@@ -54,33 +58,34 @@ iframe {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 0; /* Remove border */
+  border: 0;
 }
 
 nav {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem; /* 20px */
 }
 
 nav a {
-  color: #000; /* Set link color to black */
+  color: #000;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem; /* 10px 20px */
   display: inline-block;
-  margin-right: 10px; /* Adjust the right margin as needed */
+  margin-right: 0.625rem; /* 10px */
 }
 
+/* Footer Styles */
 footer {
-  background-color: #000; /* Set footer background color to black */
-  color: #fff; /* Set footer text color to white */
-  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 1.25rem; /* 20px */
   text-align: center;
-  margin-top: auto; /* Push the footer to the bottom of the page */
+  margin-top: auto;
 }
 
 .footer-nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly; /* Adjusted to space items evenly */
   align-items: center;
 }
 
@@ -92,7 +97,7 @@ footer {
 
 .footer-nav li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 1.25rem; /* 20px */
 }
 
 .footer-nav a {
@@ -101,12 +106,32 @@ footer {
   font-weight: bold;
 }
 
-.social-media {
-  margin-top: 10px;
+.social-media-container {
+  margin-top: 0.625rem; /* 10px */
 }
 
-.social-media a {
+.social-media-container a {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 0.625rem; /* 10px */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 44rem) {
+  /* 704px / 16px = 44rem */
+
+  /* Adjustments for Main */
+  main {
+    text-align: center; /* Center the content */
+  }
+
+  /* Adjustments for Navigation */
+  nav {
+    margin-top: 1rem; /* 16px */
+  }
+
+  nav a {
+    display: block; /* Display links in a vertical list */
+    margin-bottom: 1rem; /* 16px */
+  }
 }
 
