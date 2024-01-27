@@ -74,7 +74,7 @@ iframe {
     max-height: 10vw; /* Responsive height */
 }
 
-.streaming-stores-nav a {
+.streaming-stores-nav img a {
     display: block;
     text-decoration: none;
 }
