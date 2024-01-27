@@ -112,8 +112,8 @@ footer nav ul {
     }
 
     .streaming-stores-nav img {
-        max-width: 2vw; /* Responsive width */
-        max-height: 2vw; /* Responsive height */
+        max-width: 0.5vw; /* Responsive width */
+        max-height: 0.5vw; /* Responsive height */
     }
 }
 
