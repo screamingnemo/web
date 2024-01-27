@@ -1,18 +1,18 @@
+/* Base styles */
 body {
     margin: 0;
-    font-family:'Lacquer', Arial, sans-serif;
+    font-family: 'Lacquer', Arial, sans-serif;
 }
 
 header {
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0; /* 20px 0 */
 }
 
 header img {
     max-width: 100%;
     height: auto;
 }
-
 
 main {
     text-align: center;
@@ -26,18 +26,18 @@ nav ul {
 }
 
 nav a {
-  color: #000;
-  text-decoration: none;
-  padding: 0.625rem 1.25rem; /* 10px 20px */
-  display: inline-block;
-  margin-right: 0.625rem; /* 10px */
+    color: #000;
+    text-decoration: none;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    display: inline-block;
+    margin-right: 0.625rem; /* 10px */
 }
 
 .iframe-container {
-    width: 22.02rem; /* 220.2px in rem */
-    height: 19.97rem; /* 199.7px in rem */
-    margin: 20px auto; /* Adjust margin as needed */
-    overflow: hidden; /* Prevent iframe from overflowing */
+    width: 13.7625rem; /* 220.2px in rem */
+    height: 12.48125rem; /* 199.7px in rem */
+    margin: 1.25rem auto; /* 20px auto */
+    overflow: hidden;
 }
 
 iframe {
@@ -45,11 +45,46 @@ iframe {
     height: 100%;
 }
 
-.streaming-stores-nav{
-  display: flex;
-  justify-content: center;
-  
-  .streaming-stores-nav img {
-  max-width: 45.7px; /* Limit width */
-  max-height: 45.7px; /* Limit height */
+.streaming-stores-nav {
+    display: flex;
+    justify-content: center;
 }
+
+.streaming-stores-nav img {
+    max-width: 2.85625rem; /* 45.7px in rem */
+    max-height: 2.85625rem; /* 45.7px in rem */
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 48rem) {
+    /* Styles for screens up to 768px wide */
+    .iframe-container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    nav a {
+        padding: 0.3125rem 0.625rem; /* 5px 10px */
+    }
+
+    .streaming-stores-nav img {
+        max-width: 2.1875rem; /* 35px in rem */
+        max-height: 2.1875rem; /* 35px in rem */
+    }
+}
+
+@media only screen and (max-width: 30rem) {
+    /* Styles for screens up to 480px wide */
+    .iframe-container {
+        width: 93.75%; /* Adjust width for even smaller screens */
+    }
+
+    nav a {
+        padding: 0.25rem 0.5rem; /* 4px 8px */
+    }
+
+    .streaming-stores-nav img {
+        max-width: 1.5625rem; /* 25px in rem */
+        max-height: 1.5625rem; /* 25px in rem */
+    }
+}
+
