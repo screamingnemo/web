@@ -100,8 +100,8 @@ footer nav ul {
     }
 
     .streaming-stores-nav img {
-        max-width: 7.5vw; /* Responsive width */
-        max-height: 7.5vw; /* Responsive height */
+        max-width: 5vw; /* Responsive width */
+        max-height: 5vw; /* Responsive height */
     }
 }
 
@@ -112,8 +112,8 @@ footer nav ul {
     }
 
     .streaming-stores-nav img {
-        max-width: 5vw; /* Responsive width */
-        max-height: 5vw; /* Responsive height */
+        max-width: 2vw; /* Responsive width */
+        max-height: 2vw; /* Responsive height */
     }
 }
 
@@ -124,8 +124,8 @@ footer nav ul {
     }
 
     .streaming-stores-nav img {
-        max-width: 1vw; /* Responsive width */
-        max-height: 1vw; /* Responsive height */
+        max-width: 0.5vw; /* Responsive width */
+        max-height: 0.5vw; /* Responsive height */
     }
 }
 
