@@ -104,5 +104,10 @@ footer nav ul {
     footer {
         margin-top: 3.125rem; /* 50px in rem */
     }
+    
+    .streaming-stores-nav img {
+        max-width: 2.1875rem; /* 35px in rem */
+        max-height: 2.1875rem; /* 35px in rem */
+    }
 }
 
