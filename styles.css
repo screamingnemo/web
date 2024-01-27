@@ -71,6 +71,10 @@ iframe {
     max-height: 2.85625rem; /* 45.7px in rem */
 }
 
+.streaming-stores-nav a {
+   text-decoration: none;
+}
+
 
 /* Footer styles */
 footer {
