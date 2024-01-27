@@ -2,6 +2,11 @@
 body {
     margin: 0;
     font-family: 'Lacquer', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 100vh; /* Ensure full viewport height */
 }
 
 header {
@@ -54,46 +59,24 @@ iframe {
     justify-content: center;
 }
 
+.streaming-stores-nav .small {
+    width: 2.85625rem; /* 45.7px in rem */
+    height: 2.85625rem; /* 45.7px in rem */
+}
     
+
 .streaming-stores-nav img {
     max-width: 2.85625rem; /* 45.7px in rem */
     max-height: 2.85625rem; /* 45.7px in rem */
 }
 
-.streaming-stores-nav a {
-    text-decoration: none; /* Remove underline */
+/* Footer styles */
+footer {
+    margin-top: 20px; /* Add space between main content and footer */
 }
 
-/* Media queries for different screen sizes */
-@media only screen and (max-width: 48rem) {
-    /* Styles for screens up to 768px wide */
-    .iframe-container {
-        width: 90%; /* Adjust width for smaller screens */
-    }
-
-    nav a {
-        padding: 0.3125rem 0.625rem; /* 5px 10px */
-    }
-
-    .streaming-stores-nav img {
-        max-width: 2.1875rem; /* 35px in rem */
-        max-height: 2.1875rem; /* 35px in rem */
-    }
-}
-
-@media only screen and (max-width: 30rem) {
-    /* Styles for screens up to 480px wide */
-    .iframe-container {
-        width: 93.75%; /* Adjust width for even smaller screens */
-    }
-
-    nav a {
-        padding: 0.25rem 0.5rem; /* 4px 8px */
-    }
-
-    .streaming-stores-nav img {
-        max-width: 1.5625rem; /* 25px in rem */
-        max-height: 1.5625rem; /* 25px in rem */
-    }
+footer nav ul {
+    display: flex;
+    justify-content: center;
 }
 
