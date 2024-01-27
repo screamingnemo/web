@@ -81,6 +81,7 @@ iframe {
 /* Footer styles */
 footer {
     margin-top: 100px; /* Push footer to bottom */
+    margin-bottom:0px;
     text-align: center;
     padding: 2vw 0; /* Responsive padding */
 }
