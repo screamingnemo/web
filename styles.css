@@ -46,6 +46,10 @@ iframe {
 }
 
 .streaming-stores-nav {
+    color: #000;
+    text-decoration: none;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    margin-right: 0.625rem; /* 10px */
     display: flex;
     justify-content: center;
 }
