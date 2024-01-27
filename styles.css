@@ -24,7 +24,7 @@ main {
 }
 
 nav {
-    margin-bottom: 3.125rem; /* 50px in rem */
+    margin-bottom: 6.25rem; /* 100px in rem */
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav a {
     height: 12.48125rem; /* 199.7px in rem */
     margin: 1.25rem auto; /* 20px auto */
     overflow: hidden;
-    margin-bottom: 3.125rem; /* 50px in rem */
+    margin-bottom: 6.25rem; /* 100px in rem */
 }
 
 iframe {
@@ -60,12 +60,12 @@ iframe {
     margin-right: 0.625rem; /* 10px */
     display: flex;
     justify-content: center;
-    margin-top: 3.125rem; /* 50px in rem */
+    margin-top: 6.25rem; /* 100px in rem */
 }
     
 .streaming-stores-nav img {
-    max-width: 2.1875rem; /* 35px in rem */
-    max-height: 2.1875rem; /* 35px in rem */
+    max-width: 2.85625rem; /* 45.7px in rem */
+    max-height: 2.85625rem; /* 45.7px in rem */
 }
 
 .streaming-stores-nav a {
@@ -74,12 +74,34 @@ iframe {
 
 /* Footer styles */
 footer {
-    margin-top: 6.25rem; /* 100px in rem */
+    margin-top: 12.5rem; /* 200px in rem */
 }
 
 footer nav ul {
     display: flex;
     justify-content: center;
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 3.125rem) {
+    /* 100px */
+    nav, .iframe-container, .streaming-stores-nav {
+        margin-bottom: 0.625rem; /* 10px in rem */
+    }
+
+    footer {
+        margin-top: 1.5625rem; /* 25px in rem */
+    }
+
+    .iframe-container {
+        width: 6.25rem; /* 100px in rem */
+        height: 6.25rem; /* 100px in rem */
+    }
+
+    .streaming-stores-nav img {
+        max-width: 1.5625rem; /* 25px in rem */
+        max-height: 1.5625rem; /* 25px in rem */
+    }
 }
 
 
