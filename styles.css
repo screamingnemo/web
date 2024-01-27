@@ -84,7 +84,7 @@ footer nav ul {
 }
 
 /* Media queries for different screen sizes */
-@media only screen and (max-width: 48rem) {
+@media only screen and (max-width: 38rem) {
     /* 768px */
     nav, .iframe-container, .streaming-stores-nav {
         margin-bottom: 3.125rem; /* 50px in rem */
@@ -95,7 +95,7 @@ footer nav ul {
     }
 }
 
-@media only screen and (max-width: 30rem) {
+@media only screen and (max-width: 20rem) {
     /* 480px */
     nav, .iframe-container, .streaming-stores-nav {
         margin-bottom: 1.25rem; /* 20px in rem */
