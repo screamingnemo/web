@@ -23,6 +23,10 @@ main {
     text-align: center;
 }
 
+nav {
+    margin-bottom: 100px; /* Add padding below the navigation above the iframe */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -43,6 +47,7 @@ nav a {
     height: 12.48125rem; /* 199.7px in rem */
     margin: 1.25rem auto; /* 20px auto */
     overflow: hidden;
+    margin-bottom: 100px; /* Add padding below the iframe */
 }
 
 iframe {
@@ -57,11 +62,7 @@ iframe {
     margin-right: 0.625rem; /* 10px */
     display: flex;
     justify-content: center;
-}
-
-.streaming-stores-nav .small {
-    width: 2.85625rem; /* 45.7px in rem */
-    height: 2.85625rem; /* 45.7px in rem */
+    margin-top: 100px; /* Add padding above the streaming store navigation */
 }
     
 
@@ -70,13 +71,15 @@ iframe {
     max-height: 2.85625rem; /* 45.7px in rem */
 }
 
+
 /* Footer styles */
 footer {
-    margin-top: 20px; /* Add space between main content and footer */
+    margin-top: 200px; /* Add space between main content and footer */
 }
 
 footer nav ul {
     display: flex;
     justify-content: center;
 }
+
 
