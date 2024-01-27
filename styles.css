@@ -4,8 +4,6 @@ body {
     font-family: 'Lacquer', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
     min-height: 100vh; /* Ensure full viewport height */
 }
 
@@ -21,7 +19,8 @@ header img {
 }
 
 main {
-    text-align: center;
+    flex-grow: 1; /* Allow main content to grow to fill available space */
+    text-align: center; /* Adjust alignment as needed */
 }
 
 nav {
@@ -49,7 +48,7 @@ nav a {
     margin: 2vw auto; /* Responsive margin */
     overflow: hidden;
     position: relative; /* Set position to relative for absolute positioning of iframe */
-    margin-bottom: 100px;
+    margin-bottom: 2vw; /* Responsive margin */
 }
 
 iframe {
@@ -60,13 +59,13 @@ iframe {
     left: 0;
 }
 
-
 .streaming-stores-nav {
     padding: 1vw 2vw; /* Responsive padding */
     margin-right: 1vw; /* Responsive margin */
     display: flex;
     justify-content: center;
     margin-top: 4vw; /* Responsive margin */
+    margin-bottom: 2vw; /* Responsive margin */
 }
 
 .streaming-stores-nav img {
@@ -75,21 +74,25 @@ iframe {
 }
 
 .streaming-stores-nav a {
-    display:block;
+    display: block;
     text-decoration: none;
 }
 
 /* Footer styles */
 footer {
-    margin-top: 8vw; /* Responsive margin */
+    margin-top: auto; /* Push footer to bottom */
+    text-align: center;
+    padding: 2vw 0; /* Responsive padding */
 }
 
 footer nav ul {
+    margin-top: auto; /* Push footer to bottom */
     display: flex;
     justify-content: center;
 }
 
 /* Media queries for different screen sizes */
+
 @media only screen and (max-width: 48rem) {
     /* Styles for screens up to 768px wide */
     nav a {
@@ -112,6 +115,8 @@ footer nav ul {
         max-width: 5vw; /* Responsive width */
         max-height: 5vw; /* Responsive height */
     }
+}
+
 @media only screen and (max-width: 20rem) {
     /* Styles for screens up to 280px wide */
     nav a {
@@ -122,9 +127,7 @@ footer nav ul {
         max-width: 1vw; /* Responsive width */
         max-height: 1vw; /* Responsive height */
     }
-
-
-/* Add additional media queries as needed for other screen sizes */
+}
 
 
 
