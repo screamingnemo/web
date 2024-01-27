@@ -14,13 +14,8 @@ header {
     padding: 2vw 0; /* Responsive padding */
 }
 
-header img {
-    max-width: 100%;
-    height: auto;
-}
-
 main {
-    text-align: center;
+    flex: 1; /* Allow main content to grow to fill available space */
 }
 
 nav {
@@ -78,7 +73,9 @@ iframe {
 
 /* Footer styles */
 footer {
-    margin-top: 8vw; /* Responsive margin */
+    margin-top: auto; /* Push footer to bottom */
+    text-align: center;
+    padding: 2vw 0; /* Responsive padding */
 }
 
 footer nav ul {
