@@ -54,12 +54,7 @@ iframe {
     justify-content: center;
 }
 
-.streaming-stores-nav .small {
-    width: 2.85625rem; /* 45.7px in rem */
-    height: 2.85625rem; /* 45.7px in rem */
-}
     
-
 .streaming-stores-nav img {
     max-width: 2.85625rem; /* 45.7px in rem */
     max-height: 2.85625rem; /* 45.7px in rem */
