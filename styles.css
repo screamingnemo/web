@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensure full viewport height */
+    margin-bottom:0px;
 }
 
 header {
@@ -80,7 +81,7 @@ iframe {
 
 /* Footer styles */
 footer {
-    margin-top: 100px; /* Push footer to bottom */
+    margin-top: 50px; /* Push footer to bottom */
     margin-bottom:0px;
     text-align: center;
     padding: 2vw 0; /* Responsive padding */
