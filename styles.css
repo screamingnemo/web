@@ -63,7 +63,6 @@ iframe {
     margin-top: 6.25rem; /* 100px in rem */
 }
     
-
 .streaming-stores-nav img {
     max-width: 2.85625rem; /* 45.7px in rem */
     max-height: 2.85625rem; /* 45.7px in rem */
@@ -84,18 +83,7 @@ footer nav ul {
 }
 
 /* Media queries for different screen sizes */
-@media only screen and (max-width: 38rem) {
-    /* 768px */
-    nav, .iframe-container, .streaming-stores-nav {
-        margin-bottom: 3.125rem; /* 50px in rem */
-    }
-
-    footer {
-        margin-top: 6.25rem; /* 100px in rem */
-    }
-}
-
-@media only screen and (max-width: 20rem) {
+@media only screen and (max-width: 30rem) {
     /* 480px */
     nav, .iframe-container, .streaming-stores-nav {
         margin-bottom: 1.25rem; /* 20px in rem */
@@ -104,10 +92,27 @@ footer nav ul {
     footer {
         margin-top: 3.125rem; /* 50px in rem */
     }
-    
+
     .streaming-stores-nav img {
         max-width: 2.1875rem; /* 35px in rem */
         max-height: 2.1875rem; /* 35px in rem */
     }
 }
+
+@media only screen and (max-width: 25rem) {
+    /* 400px */
+    nav, .iframe-container, .streaming-stores-nav {
+        margin-bottom: 0.625rem; /* 10px in rem */
+    }
+
+    footer {
+        margin-top: 2.5rem; /* 40px in rem */
+    }
+
+    .iframe-container {
+        width: 12.5rem; /* 200px in rem */
+        height: 12.5rem; /* 200px in rem */
+    }
+}
+
 
