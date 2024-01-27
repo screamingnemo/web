@@ -17,6 +17,7 @@ header {
 header img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 50px;
 }
 
 main {
@@ -48,6 +49,7 @@ nav a {
     margin: 2vw auto; /* Responsive margin */
     overflow: hidden;
     position: relative; /* Set position to relative for absolute positioning of iframe */
+    margin-bottom: 100px;
 }
 
 iframe {
@@ -73,6 +75,7 @@ iframe {
 }
 
 .streaming-stores-nav a {
+    display:block;
     text-decoration: none;
 }
 
