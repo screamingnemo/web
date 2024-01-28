@@ -90,8 +90,9 @@ footer {
     padding: 2vw 0; /* Responsive padding */
 }
 
-footer nav ul {
+footer ul {
     margin-top: auto; /* Push footer to bottom */
+    text-decoration: none;
     display: flex;
     justify-content: center;
 }
