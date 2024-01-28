@@ -5,7 +5,7 @@ body {
     font-family: 'Lacquer', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 80vh; /* Ensure full viewport height */
+    min-height: 50vh; /* Ensure full viewport height */
 }
 
 header {
@@ -105,8 +105,8 @@ footer nav ul {
     }
 
     .streaming-stores-nav img {
-        max-width: 0.1vw; /* Responsive width */
-        max-height: 0.1vw; /* Responsive height */
+        max-width: 0.5rem; /* Responsive width */
+        max-height: 0.5rem; /* Responsive height */
     }
 }
 
@@ -117,8 +117,8 @@ footer nav ul {
     }
 
     .streaming-stores-nav img {
-        max-width: 0.1vw; /* Responsive width */
-        max-height: 0.1vw; /* Responsive height */
+        max-width: 0.5rem; /* Responsive width */
+        max-height: 0.5rem; /* Responsive height */
     }
 }
 
@@ -129,8 +129,8 @@ footer nav ul {
     }
 
     .streaming-stores-nav img {
-        max-width: 0.1vw; /* Responsive width */
-        max-height: 0.1vw; /* Responsive height */
+        max-width: 0.5rem; /* Responsive width */
+        max-height: 0.5rem; /* Responsive height */
     }
 }
 
