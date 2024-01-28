@@ -57,7 +57,7 @@ nav a:hover {
     margin: 2vw auto; /* Responsive margin */
     overflow: hidden;
     position: relative; /* Set position to relative for absolute positioning of iframe */
-    margin-bottom: 100px; /* Responsive margin */
+    margin-bottom: 85px; /* Responsive margin */
 }
 
 iframe {
