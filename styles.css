@@ -29,14 +29,14 @@ a {
 }
 
 nav {
-    margin-bottom: 100px; /* Responsive margin */
+    margin-bottom: 72px; /* Responsive margin */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 nav a {
@@ -84,7 +84,7 @@ iframe {
 
 /* Footer styles */
 footer {
-    margin-top: 50px; /* Push footer to bottom */
+    margin-top: 38px; /* Push footer to bottom */
     margin-bottom:0px;
     text-align: center;
     padding: 2vw 0; /* Responsive padding */
@@ -93,16 +93,24 @@ footer {
 footer nav ul {
     margin-top: auto; /* Push footer to bottom */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /* Media queries for different screen sizes */
 
 @media only screen and (max-width: 48rem) {
     /* Styles for screens up to 768px wide */
+    nav ul {  padding: 0.5vw 1vw; /* Responsive padding */
+    }
+    
     nav a {
         padding: 0.5vw 1vw; /* Responsive padding */
     }
+
+    .streaming-stores-nav {
+         padding: 0.5vw 1vw; /* Responsive padding */
+    }
+        
 
     .streaming-stores-nav img {
         max-width: 0.5rem; /* Responsive width */
@@ -112,8 +120,15 @@ footer nav ul {
 
 @media only screen and (max-width: 30rem) {
     /* Styles for screens up to 480px wide */
+    nav ul {  padding: 0.3vw 0.6vw; /* Responsive padding */
+    }
+    
     nav a {
         padding: 0.3vw 0.6vw; /* Responsive padding */
+    }
+
+    .streaming-stores-nav {
+         padding: 0.3vw 0.6vw; /* Responsive padding */
     }
 
     .streaming-stores-nav img {
@@ -124,8 +139,14 @@ footer nav ul {
 
 @media only screen and (max-width: 20rem) {
     /* Styles for screens up to 280px wide */
+    nav ul {  padding: 0.1vw 0.2vw; /* Responsive padding */
+    }
     nav a {
         padding: 0.1vw 0.2vw; /* Responsive padding */
+    }
+
+    .streaming-stores-nav {
+         padding: 0.1vw 0.2vw; /* Responsive padding */
     }
 
     .streaming-stores-nav img {
