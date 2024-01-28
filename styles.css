@@ -24,6 +24,10 @@ main {
     text-align: center; /* Adjust alignment as needed */
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     margin-bottom: 100px; /* Responsive margin */
 }
@@ -76,11 +80,6 @@ iframe {
 .streaming-stores-nav img {
     max-width: 10vw; /* Responsive width */
     max-height: 10vw; /* Responsive height */
-}
-
-.streaming-stores-nav img a {
-    display: block;
-    text-decoration: none;
 }
 
 /* Footer styles */
