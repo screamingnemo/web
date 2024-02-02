@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     display: flex;
     flex-direction: column;
     min-height: 50vh; /* Ensure full viewport height */
