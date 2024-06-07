@@ -42,7 +42,7 @@ nav ul {
 
 nav a {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 1vw 2vw; /* Responsive padding */
     display: inline-block;
     margin-right: 1vw; /* Responsive margin */
