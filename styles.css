@@ -26,7 +26,7 @@ main {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 nav {
@@ -42,7 +42,7 @@ nav ul {
 
 nav a {
     color: #000;
-    text-decoration: underline;
+    text-decoration: none;
     padding: 1vw 2vw; /* Responsive padding */
     display: inline-block;
     margin-right: 1vw; /* Responsive margin */
@@ -50,6 +50,10 @@ nav a {
 
 nav a:hover {
     text-decoration: underline; /* Add underline on hover */
+}
+
+.underline_text {
+    text-decoration: underline; /* Add underline on specific text */
 }
 
 .iframe-container {
