@@ -49,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: none; /* Add no underline on hover */
 }
 
 .underline_text {
