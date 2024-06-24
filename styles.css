@@ -87,6 +87,12 @@ iframe {
     max-height: 10vw; /* Responsive height */
 }
 
+.buy-now {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px; 
+}
+
 /* Footer styles */
 footer {
     margin-top: 38px; /* Push footer to bottom */
