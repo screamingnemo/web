@@ -59,19 +59,20 @@ nav a {
 }
 
 .iframe-container {
-  position: relative;
-  width: 320px; /* Small width for the iframe */
-  padding-top: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
+    width: 220.2px; /* Set width to 220.2 pixels */
+    height: 199.7px; /* Set height to 199.7 pixels */
+    margin: 2vw auto; /* Responsive margin */
+    overflow: hidden;
+    position: relative; /* Set position to relative for absolute positioning of iframe */
+    margin-bottom: 85px; /* Responsive margin */
 }
 
 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute; /* Position iframe inside container */
+    width: 100%; /* Take full width of container */
+    height: 100%; /* Take full height of container */
+    top: 0;
+    left: 0;
 }
 
 .streaming-stores-nav {
