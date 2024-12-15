@@ -58,18 +58,18 @@ nav a {
 /*
 .iframe-container {
     width: 220.2px; /* Set width to 220.2 pixels */
-    height: 199.7px; /* Set height to 199.7 pixels */
-    margin: 2vw auto; /* Responsive margin */
-    overflow: hidden;
+    /*height: 199.7px; /* Set height to 199.7 pixels */
+    /*margin: 2vw auto; /* Responsive margin */
+    /*overflow: hidden;
     position: relative; /* Set position to relative for absolute positioning of iframe */
-    margin-bottom: 85px; /* Responsive margin */
+    /*margin-bottom: 85px; /* Responsive margin */
 }*/
 
-iframe {
+/*iframe {
     position: absolute; /* Position iframe inside container */
-    width: 100%; /* Take full width of container */
-    height: 100%; /* Take full height of container */
-    top: 0;
+    /*width: 100%; /* Take full width of container */
+    /*height: 100%; /* Take full height of container */
+    /*top: 0;
     left: 0;
 }
 
