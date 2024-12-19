@@ -61,6 +61,8 @@ nav a {
     max-width: 560px; /* Limit maximum size */
     aspect-ratio: 16 / 9; /* Maintain aspect ratio */
     margin: 0 auto; /* Center horizontally */
+    padding-left: 5%;
+    padding-right: 5%
     position: relative;
 }
 
