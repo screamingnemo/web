@@ -25,7 +25,170 @@
                title="YouTube video player" 
                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="iframe-container">
+                <div id='product-component-1734649655506'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: '93ba92-d0.myshopify.com',
+      storefrontAccessToken: '9aed5d9a9ef7f7289b95081846c69c4b',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '9577397944637',
+        node: document.getElementById('product-component-1734649655506'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "title": {
+        "font-family": "Montserrat, sans-serif"
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "background-color": "#000000",
+        ":focus": {
+          "background-color": "#000000"
+        }
+      }
+    },
+    "buttonDestination": "checkout",
+    "text": {
+      "button": "Buy now"
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "background-color": "#000000",
+        ":focus": {
+          "background-color": "#000000"
+        }
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        "background-color": "#000000",
+        ":focus": {
+          "background-color": "#000000"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "background-color": "#000000",
+        ":hover": {
+          "background-color": "#000000"
+        },
+        ":focus": {
+          "background-color": "#000000"
+        }
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
         </div>
+            </div>
     </nav>
         </div class="streaming-stores-nav">
       <a href="https://www.amazon.com/music/player/artists/B08SLFMDW4/screamin'-nemo">
