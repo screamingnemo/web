@@ -79,6 +79,15 @@ iframe {
     max-width: 560px; /* Limit maximum size */
 }
 
+.form-container  {
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Responsive width */
+    max-width: 560px; /* Limit maximum size */
+}
+
 .streaming-stores-nav {
     padding: 1vw 2vw; /* Responsive padding */
     margin-right: 1vw; /* Responsive margin */
